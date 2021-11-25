@@ -10,6 +10,7 @@ header {
 #logo{
     width: 10rem;
     height: 8rem;
+    margin: 1rem;
 }
 
 section {
@@ -18,4 +19,8 @@ section {
  #a1 {
      background-color: violet;
      width: 8rem;
+     height: 20rem;
+     margin: 1rem;
+     margin-top: 4rem;
+    
  }
