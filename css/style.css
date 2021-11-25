@@ -1,0 +1,21 @@
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: white;
+}
+
+#logo{
+    width: 10rem;
+    height: 8rem;
+}
+
+section {
+    background-color: white;
+}
+ #a1 {
+     background-color: violet;
+     width: 8rem;
+ }
