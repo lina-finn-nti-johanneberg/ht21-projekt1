@@ -17,9 +17,16 @@ header {
     grid-area: hd;
     display: flex;
 }
+ul{
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
 
 #logo{
     height: 5rem;
+    margin-bottom: 1rem;
  }
 
 main {
@@ -27,11 +34,14 @@ main {
     background-color: cadetblue;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height:100%;
 }
 #bord {
     background-color: cornflowerblue;
     width: 8rem;
     height: 3rem;
+   
 }
 
 section {
@@ -45,4 +55,5 @@ section {
      height: 20rem;
      margin: 2rem;
  }
+ 
  
