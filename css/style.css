@@ -1,6 +1,6 @@
 
 body {
-    background-color: burlywood;
+    background-color: white;
 }
 #wrapper {
     display: grid;
@@ -8,7 +8,7 @@ body {
    'hd hd hd'
    'ma ma ma'
    'se se se';
-   grid-template-rows: 1fr 3fr 5fr 2fr;
+   grid-template-rows: 1fr 5fr 5fr 2fr;
    min-height: 100vh;
    margin: auto;
 }
@@ -31,14 +31,14 @@ li {
 
 main {
     grid-area: ma;
-    background-color: cadetblue;
+    background-image:;
     display: flex;
     justify-content: center;
     align-items: center;
     height:100%;
 }
 #bord {
-    background-color: cornflowerblue;
+    background-color: #C4B3B3;
     width: 8rem;
     height: 3rem;
    
@@ -46,11 +46,14 @@ main {
 
 section {
     grid-area: se;
-    background-color: white;
+    background-color:#F7E1E1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #a1 {
-     background-color: violet;
+     background-color: #784949;
      width: 20rem;
      height: 20rem;
      margin: 2rem;
