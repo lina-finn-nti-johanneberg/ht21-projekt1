@@ -22,6 +22,15 @@ ul{
 }
 li {
     display: inline;
+    margin: 2rem;   
+}
+
+ol{
+    color: white;
+}
+
+h2{
+    color: white;
 }
 
 #logo{
@@ -31,7 +40,7 @@ li {
 
 main {
     grid-area: ma;
-    background-image:;
+    background-color:#786D6D ;
     display: flex;
     justify-content: center;
     align-items: center;
