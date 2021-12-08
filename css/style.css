@@ -22,11 +22,13 @@ ul{
 }
 li {
     display: inline;
-    margin: 2rem;   
+    margin: 2rem; 
+    font-size: 2rem;
 }
 
 ol{
     color: white;
+    margin: 1rem;
 }
 
 h2{
@@ -40,7 +42,7 @@ h2{
 
 main {
     grid-area: ma;
-    background-color:#786D6D ;
+    background-color: #786D6D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +52,11 @@ main {
     background-color: #C4B3B3;
     width: 8rem;
     height: 3rem;
-   
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -67,5 +73,10 @@ section {
      height: 20rem;
      margin: 2rem;
  }
- 
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+ }
  
