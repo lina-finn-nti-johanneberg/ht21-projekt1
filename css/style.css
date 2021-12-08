@@ -15,8 +15,18 @@ body {
 
 header {
     grid-area: hd;
-    display: flex;
+    display: grid;
+    grid-template-areas:
+    'lo nav';
 }
+a{
+    text-decoration: none;
+    color: #000; 
+}
+a:hover{
+color:#786D6D;
+}
+
 ul{
     list-style-type: none;
 }
@@ -24,6 +34,14 @@ li {
     display: inline;
     margin: 2rem; 
     font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: nav;
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 ol{
@@ -38,11 +56,15 @@ h2{
 #logo{
     height: 5rem;
     margin-bottom: 1rem;
+    grid-area: lo;
+    display: flex;
+    justify-content: flex-start;
  }
 
 main {
+    background-image:url('../img/IMG_4691.jpg');
+    background-size:cover;
     grid-area: ma;
-    background-color: #786D6D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,13 +72,14 @@ main {
 }
 #bord {
     background-color: #C4B3B3;
-    width: 8rem;
-    height: 3rem;
+    width: 15rem;
+    height: 6rem;
 }
 p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
 }
 
 section {
@@ -71,11 +94,12 @@ section {
      background-color: #784949;
      width: 20rem;
      height: 20rem;
-     margin: 2rem;
+     margin-right: 2rem;
+     padding-left: 2rem;
  }
  h2{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
  }
