@@ -7,8 +7,11 @@ body {
     grid-template-areas: 
    'hd hd hd'
    'ma ma ma'
-   'se se se';
-   grid-template-rows: 1fr 5fr 5fr 2fr;
+   'se se se'
+   'se2 se2 se2'
+   'fo fo fo'
+   ;
+   grid-template-rows: 1fr 6fr 5fr 4fr 2fr;
    min-height: 100vh;
    margin: auto;
 }
@@ -32,7 +35,7 @@ ul{
 }
 li {
     display: inline;
-    margin: 2rem; 
+    margin: 4rem; 
     font-size: 2rem;
 }
 
@@ -40,17 +43,13 @@ nav {
     display: flex;
     justify-content: flex-end;
     grid-area: nav;
-    margin-right: 2rem;
+    margin-right: 7rem;
     margin-top: 1rem;
 }
 
 ol{
     color: white;
     margin: 1rem;
-}
-
-h2{
-    color: white;
 }
 
 #logo{
@@ -82,7 +81,7 @@ p{
     font-size: 2rem;
 }
 
-section {
+#section1 {
     grid-area: se;
     background-color:#F7E1E1;
     display: flex;
@@ -92,15 +91,45 @@ section {
 
 #a1 {
      background-color: #784949;
-     width: 20rem;
-     height: 20rem;
-     margin-right: 2rem;
-     padding-left: 2rem;
+     width: 30rem;
+     height: 15rem;
+     margin-right: 4rem;
+     padding-left: 4rem;
  }
  h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
+    color: white;
  }
- 
+#section2 {
+    grid-area: se2;
+    background-color: #F7E1E1;
+    display: grid;
+    grid-template-areas:
+    'a2 a3 a4';
+    
+    
+}
+#a2 {
+    grid-area: a2;
+background-image: url(../img/IMG_jacksonklar.jpg);
+background-repeat: no-repeat;
+}
+
+#a3 {
+    grid-area: a3;
+    background-image: url(../img/IMG_matklar.jpg);
+    background-repeat: no-repeat;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+#a4 {
+    grid-area: a4;  
+    background-image: url(../img/IMG_elvisklarr.jpg);
+    background-repeat: no-repeat;
+}
+footer {
+    grid-area: fo;
+}
