@@ -11,7 +11,7 @@ body {
    'se2 se2 se2'
    'fo fo fo'
    ;
-   grid-template-rows: 1fr 6fr 5fr 4fr 2fr;
+   grid-template-rows: 1fr 6fr 5fr 5fr 2fr;
    min-height: 100vh;
    margin: auto;
 }
@@ -91,7 +91,7 @@ p{
 
 #a1 {
      background-color: #784949;
-     width: 30rem;
+     width: 25rem;
      height: 15rem;
      margin-right: 4rem;
      padding-left: 4rem;
@@ -110,12 +110,12 @@ p{
     grid-template-areas:
     'a2 a3 a4';
     
-    
 }
 #a2 {
     grid-area: a2;
 background-image: url(../img/IMG_jacksonklar.jpg);
 background-repeat: no-repeat;
+margin-bottom: 4rem;
 }
 
 #a3 {
@@ -124,11 +124,13 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 4rem;
 }
 #a4 {
     grid-area: a4;  
     background-image: url(../img/IMG_elvisklarr.jpg);
     background-repeat: no-repeat;
+    margin-bottom: 4rem;
 }
 footer {
     grid-area: fo;
