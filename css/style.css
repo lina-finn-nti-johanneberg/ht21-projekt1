@@ -2,7 +2,7 @@
 body {
     background-color: white;
 }
-#wrapper {
+#wrapper1 {
     display: grid;
     grid-template-areas: 
    'hd hd hd'
@@ -122,8 +122,8 @@ margin-bottom: 4rem;
     grid-area: a3;
     background-image: url(../img/IMG_matklar.jpg);
     background-repeat: no-repeat;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 4rem;
 }
 #a4 {
@@ -131,6 +131,12 @@ margin-bottom: 4rem;
     background-image: url(../img/IMG_elvisklarr.jpg);
     background-repeat: no-repeat;
     margin-bottom: 4rem;
+}
+
+#matälskare {
+    background-color: #C4B3B3;
+    width: 15rem;
+    height: 6rem;
 }
 footer {
     grid-area: fo;
