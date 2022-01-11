@@ -11,7 +11,7 @@ body {
    'se2 se2 se2'
    'fo fo fo'
    ;
-   grid-template-rows: 1fr 6fr 5fr 5fr 2fr;
+   grid-template-rows: 1fr 7fr 5fr 5fr 2fr;
    min-height: 100vh;
    margin: auto;
 }
@@ -74,7 +74,7 @@ main {
     width: 15rem;
     height: 6rem;
 }
-p{
+#texttillhem{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,20 +96,25 @@ p{
      margin-right: 4rem;
      padding-left: 4rem;
  }
- h2{
+ #tider{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
     color: white;
  }
+ #text{
+    width: 45rem;
+    height: 15rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+ }
 #section2 {
     grid-area: se2;
     background-color: #F7E1E1;
     display: grid;
     grid-template-areas:
-    'a2 a3 a4';
-    
+    'a2 a3 a4';    
 }
 #a2 {
     grid-area: a2;
@@ -140,4 +145,109 @@ margin-bottom: 4rem;
 }
 footer {
     grid-area: fo;
+}
+
+#wrapper2 {
+    display: grid;
+    grid-template-areas: 
+   'hd hd hd'
+   'ma2 ma2 ma2'
+   'se1b se1b se1b'
+   'se2b se2b se2b'
+   'fo fo fo';
+   grid-template-rows: 1fr 7fr 9fr 9fr 2fr;
+   min-height: 100vh;
+   margin: auto;   
+}
+
+#main2 {
+    background-image:url(../img/IMG_kackor.jpg);
+    background-size:cover;
+    grid-area: ma2; 
+ }
+ #matälskare{
+    background-color: #C4B3B3;
+    width: 45rem;
+    height: 6rem;
+}
+#section1b{
+    background-color: #F7E1E1;
+    grid-area: se1b;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+}
+#a1b{
+     background-image: url(../img/IMG_heder_omoss.jpg);
+     width: 25rem;
+     height: 30rem;
+     margin-right: 4rem;
+     padding-left: 4rem;
+}
+#överskrift{
+    margin-left: 4rem;
+   
+}
+#se2b{
+    background-color: #F7E1E1;
+    grid-area: se2b; 
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+}
+#b2b{
+    background-image: url(../img/IMG-växthus.jpg);
+    width: 25rem;
+    height: 30rem;
+    margin-right: 4rem;
+    padding-left: 4rem;
+}
+
+#wrapper3 {
+    display: grid;
+    grid-template-areas: 
+   'hd hd hd'
+   'ma3 ma3 ma3'
+   're re re'
+   'fo fo fo';
+   grid-template-rows: 1fr 7fr 20fr 5fr;
+   min-height: 100vh;
+   margin: auto;   
+}
+
+#main3 {
+    grid-area: ma3; 
+    background-image: url(../img/IMG_pomes.jpg); 
+}
+#meny{
+    background-color: #C4B3B3;
+    width: 30rem;
+    height: 6rem;
+}
+
+#Rettrna{
+    grid-area: re;
+    background-color:#F7E1E1;
+}
+.rett{
+    background-color: #784949;
+    width: 60rem;
+    height: 6rem;
+    margin: 5rem;
+}
+
+hr{
+    width:24rem;
+    margin-left: 9rem;
+    border: solid 3px black;
+}
+
+h3{
+    margin-left: 11rem;
+    font-size: 2rem;
+}
+
+h2{
+    color: white;
+    
 }
