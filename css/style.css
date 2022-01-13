@@ -79,6 +79,15 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+#texttillhem1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 #section1 {
@@ -204,24 +213,28 @@ margin-left: 4rem;
 margin-right: 4rem;
 margin-bottom: 2rem;
 grid-area: t;
+font-family: 'Open Sans', sans-serif;
 }
 #ommig1{
     margin-left: 4rem;
     margin-right: 4rem;
     margin-bottom: 2rem;
     grid-area: t1;
+    font-family: 'Open Sans', sans-serif;
 }
 #ommig2{
     margin-left: 4rem;
     margin-right: 4rem;
     margin-bottom: 2rem;
     grid-area: t2;
+    font-family: 'Open Sans', sans-serif;
 }
 #ommig3{
     margin-left: 4rem;
 margin-right: 4rem;
 margin-bottom: 4rem;
     grid-area: t3;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #b2b{
@@ -264,6 +277,8 @@ margin-bottom: 4rem;
     width: 60rem;
     height: 6rem;
     margin: 5rem;
+    padding-bottom: 2rem;
+    
 }
 
 hr{
@@ -288,6 +303,4 @@ h4{
     margin-right: 3rem;
     display: flex;
     justify-content: right;
-    align-items: top;
-    margin-bottom: 1rem;
 }
