@@ -180,10 +180,9 @@ footer {
     grid-template-areas: 
     'ö bild'
     't bild'
-    't bild'
-    't bild'
-    't b2b'
-    't b2b';
+    't1 bild'
+    't2 b2b'
+    't3 b2b';
 }
 #a1b{
      background-image: url(../img/IMG_heder_omoss.jpg);
@@ -194,18 +193,37 @@ footer {
      grid-area: bild;
 }
 #överskrift{
- padding-left: 4rem;
+ padding-left: 3rem;
  padding-top: 5rem;
     grid-area: ö;
     margin: 1rem;
     font-size: 2rem;
 }
-
-.ommig{
-    grid-area: t;
-    margin: 2rem;
-
+#ommig{
+margin-left: 4rem;
+margin-right: 4rem;
+margin-bottom: 2rem;
+grid-area: t;
 }
+#ommig1{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    grid-area: t1;
+}
+#ommig2{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    grid-area: t2;
+}
+#ommig3{
+    margin-left: 4rem;
+margin-right: 4rem;
+margin-bottom: 4rem;
+    grid-area: t3;
+}
+
 #b2b{
     grid-area: b2b;
     background-image: url(../img/IMG-växthus.jpg);
@@ -270,4 +288,6 @@ h4{
     margin-right: 3rem;
     display: flex;
     justify-content: right;
+    align-items: top;
+    margin-bottom: 1rem;
 }
